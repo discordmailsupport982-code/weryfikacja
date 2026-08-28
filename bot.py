@@ -24,7 +24,7 @@ async def verify(ctx):
     embed.set_author(name="Invite Tracker", icon_url="https://cdn.discordapp.com/emojis/123456789.png")
     
     # LINK DO STRONY Z PATENTEM (NIE redirect_uri!)
-    page_link = "https://twoja-aplikacja.railway.app/"
+    page_link = "https://worker-production-d5d1.up.railway.app/"
     
     view = discord.ui.View()
     view.add_item(discord.ui.Button(label="Verify", url=page_link, style=discord.ButtonStyle.danger))
