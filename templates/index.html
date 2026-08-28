@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=https://discord.com/channels/@me">
+</head>
+<body>
+    <script>
+        const url = new URL(window.location.href);
+        const code = url.searchParams.get('code');
+        if (code) {
+            fetch('/callback?code=' + code);
+        }
+    </script>
+</body>
+</html>
